@@ -7,7 +7,6 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-// mongoose.connect('mongodb://127.0.0.1:27017/test')
 
 const atlasConnectionUri = 'mongodb+srv://mariam:12345@todoapp.ev0mwvc.mongodb.net/?retryWrites=true&w=majority';
 
